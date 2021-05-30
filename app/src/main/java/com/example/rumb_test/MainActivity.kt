@@ -291,16 +291,14 @@ class MainActivity : AppCompatActivity() {
 
                     }
 
-                } else if (regB == null) { // todo убрать вложенность
+                } else if (regB == null) {
                     fromTextInput1.error = "Ошибка ввода"
                 } else if (regL == null) {
                     fromTextInput2.error = "Ошибка ввода"
                 } else {
                     fromTextInput3.error = "Ошибка ввода"
                 }
-                // todo xyz из вгс в пулк и обратно небольшая ошибка в секундах и высоте (по идее похуй)
-                // todo blh из вгс в пулково переводится с ошибкой, остальное четко
-
+                
 
             }
 
